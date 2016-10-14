@@ -1,19 +1,18 @@
 html, body {
     font-size: 13pt;
     font-family: 'Lato', sans-serif;
-    background-color: #84C68C;
+    background-color: rgba(132,198,140,0.3);;
 }
 
 /* Navbar */
 
 #navbar {
-    background-color: #10631B;
+    background-color: rgba( 16, 99, 27,0.85);
     color: white;
     height: 3em;
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.8;
     box-shadow: 0 0.5em 0.5em rgba(0,0,0,0.5);
 }
 
@@ -91,7 +90,7 @@ html, body {
     padding: 1em;
     text-align: justify;
     background-color: white;
-    box-shadow: 3em 0 3em rgba(255,255,255,0.3);
+    border-left: solid 3px rgba(132,198,140,0.3);
 }
 
 footer {
@@ -159,7 +158,7 @@ a:hover {
     height: 12em;
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 833px) {
     #mobile-menu {
         display: none;
         visibility: hidden;
