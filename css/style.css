@@ -16,7 +16,10 @@ html, body {
 }
 
 #navbar header {
-    padding: 0.25em;
+    background-color: #004208;
+    padding: 0.75em;
+    width: 5.5em;
+    height: 2em;
 }
 
 #navbar header .bigger {
@@ -123,7 +126,7 @@ a:hover {
     text-decoration: none;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 830px) {
     #mobile-menu {
         display: none;
         visibility: hidden;
@@ -151,7 +154,7 @@ a:hover {
     }
 
     #navbar nav li a:hover {
-        background-color: #52A55D;
+        background-color: #2C8437;
     }
 
     #main {
@@ -160,3 +163,12 @@ a:hover {
         margin-right: auto;
     }
 }
+
+/*
+shade 0 = #2C8437 = rgb( 44,132, 55) = rgba( 44,132, 55,1) = rgb0(0.173,0.518,0.216)
+   shade 1 = #84C68C = rgb(132,198,140) = rgba(132,198,140,1) = rgb0(0.518,0.776,0.549)
+   shade 2 = #52A55D = rgb( 82,165, 93) = rgba( 82,165, 93,1) = rgb0(0.322,0.647,0.365)
+   shade 3 = #10631B = rgb( 16, 99, 27) = rgba( 16, 99, 27,1) = rgb0(0.063,0.388,0.106)
+   shade 4 = #004208 = rgb(  0, 66,  8) = rgba(  0, 66,  8,1) = rgb0(0,0.259,0.031)
+
+*/
