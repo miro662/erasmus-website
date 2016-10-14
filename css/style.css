@@ -123,6 +123,7 @@ input[type=checkbox]:checked ~ nav {
 a, a:visited {
     color: #2C8437;
     text-decoration: underline;
+    transition: background-color 0.25s;
 }
 
 a:hover {
@@ -137,6 +138,14 @@ a:hover {
     display: inline-block;
     background-size: 100% 100%;
     border: solid 1px #84C68C;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#lang:hover {
+    width: 3em;
+    height: 1.8em;
+    transform: translate(0.25em, -0.1em);
+    transition: width 1s, height 1s, transform 1s;
 }
 
 .gb-flag {
@@ -168,8 +177,8 @@ a:hover {
         width: initial;
         display: inline-block;
         margin: 0;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
         padding-top: 1em;
         height: 1.47em;
         background-color: initial;
@@ -186,7 +195,7 @@ a:hover {
     }
 
     #navbar nav li a:hover {
-        background-color: #2C8437;
+        background-color: rgba( 82,165, 93,1);
     }
 
     #main {
