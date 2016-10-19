@@ -1,7 +1,7 @@
 html, body {
     font-size: 13pt;
     font-family: 'Lato', sans-serif;
-    background-color: rgba(132,198,140,0.3);;
+    background-color: rgba(132,198,140,0.3);
 }
 
 /* Navbar */
@@ -91,6 +91,7 @@ html, body {
     text-align: justify;
     background-color: white;
     border-left: solid 3px rgba(132,198,140,0.3);
+    min-height: 100vh;
 }
 
 footer {
@@ -106,6 +107,7 @@ footer {
 
 #content {
     margin-bottom: 1em;
+    height: 100%;
 }
 
 input[type=checkbox]:checked ~ nav {
