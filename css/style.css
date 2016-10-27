@@ -103,6 +103,7 @@ footer {
     background-position: 50% 3em;
     background-size: 320px 3em;
     background-repeat: no-repeat;
+    clear: both;
 }
 
 #content {
@@ -174,6 +175,16 @@ a:hover {
     max-width: 560px;
     margin: 0 auto;
     height: 315px;
+}
+
+.gallery img{
+    width: 180px;
+    height: 135px;
+    margin: 5px;
+    float: left;
+}
+
+.gallery:hover img{
 }
 
 @media screen and (min-width: 833px) {
