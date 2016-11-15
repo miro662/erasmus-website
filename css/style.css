@@ -177,16 +177,6 @@ a:hover {
     height: 315px;
 }
 
-.gallery img{
-    width: 180px;
-    height: 135px;
-    margin: 5px;
-    float: left;
-}
-
-.gallery:hover img{
-}
-
 @media screen and (min-width: 833px) {
     #mobile-menu {
         display: none;
