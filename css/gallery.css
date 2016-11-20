@@ -24,3 +24,7 @@
         height: 225px;
     }
 }
+
+h2 {
+    clear: both;
+}
